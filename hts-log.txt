@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 02 Aug 2024 13:11:54 at https://kit.sociolib.com/coursery/template-kit/home/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://kit.sociolib.com/coursery/template-kit/home/ -O1 "C:\My Web Sites\Cousery" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:19:41	Warning: 	Retry after error -4 (No data (connection closed)) at link https://kit.sociolib.com/coursery/wp-includes/js/jquery/jquery.min.js?ver=3.7.1 (from https://kit.sociolib.com/coursery/template-kit/home/)
+13:19:41	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://kit.sociolib.com/coursery/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.23.1 (from https://kit.sociolib.com/coursery/template-kit/home/)
+13:19:50	Error: 	"Not Found" (404) at link https://kit.sociolib.com/coursery/template-kit/home/GET (from https://kit.sociolib.com/coursery/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17)
+13:19:50	Error: 	"Not Found" (404) at link https://kit.sociolib.com/coursery/template-kit/home/-negative.svg (from https://kit.sociolib.com/coursery/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.1)
+13:19:51	Error: 	"Not Found" (404) at link https://kit.sociolib.com/coursery/template-kit/home/OPR/ (from https://kit.sociolib.com/coursery/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.1)
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 57 seconds : 49 links scanned, 43 files written (1892252 bytes overall) [469972 bytes received at 985 bytes/sec], 1974731 bytes transferred using HTTP compression in 38 files, ratio 17%, 3.0 requests per connection
+(3 errors, 2 warnings, 0 messages)
