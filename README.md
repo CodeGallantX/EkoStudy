@@ -1,0 +1,9 @@
+> SEO Meta tag
+``` <meta name="title" content="EkoStudy">
+<meta name="description" content="EkoStudy is the ultimate online resource for LASUSTECH pre-degree students, offering an extensive collection of lecture notes, study guides, and interactive courses across various departments. Designed to support and enhance academic success, EkoStudy provides everything you need to excel in your studies, from comprehensive materials to engaging learning tools.">
+<meta name="keywords" content="LASUSTECH pre-degree, LASUSTECH departments study resources, pre-degree exam resources, EkoStudy online courses, LASUSTECH students study platform, EkoStudy,online study resources LASUSTECH,pre-degree study guides,interactive courses for LASUSTECH students,academic success tools,comprehensive lecture notes online,study materials for LASUSTECH,EkoStudy learning tools,enhance academic performance,LASUSTECH departments study resources,online learning platform for LASUSTECH,study support for pre-degree students,EkoStudy courses,educational resources for pre-degree,LASUSTECH pre-degree preparation,EkoStudy academic resources,pre-degree exam resources,EkoStudy lecture notes,virtual learning for LASUSTECH students,study aids for LASUSTECH students,EkoStudy study guides,academic enhancement tools LASUSTECH,EkoStudy interactive learning,online academic success LASUSTECH,EkoStudy education support,departmental guides LASUSTECH,pre-degree coursework help">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="author" content="John Samuel">
+```
