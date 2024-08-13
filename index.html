@@ -38,6 +38,7 @@
 <!-- Meta Tags Generated with https://metatags.io -->
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kit.sociolib.com\/coursery\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
 /*! This file is auto-generated */
@@ -107,7 +108,8 @@ a:visited {
   text-decoration: none;
   transition: all 0.4s ease-in-out;
 }
-#whatsapp-chat h1 {
+
+/* #whatsapp-chat h1 {
   font-size: 20px;
   text-align: center;
   display: block;
@@ -115,7 +117,7 @@ a:visited {
   padding: 20px;
   color: #fff;
   border-radius: 50px;
-}
+} */
 
 /* CSS Multiple Whatsapp Chat */
 .whatsapp-name {
@@ -219,33 +221,35 @@ span.chat-nama {
 span.my-number {
   display: none;
 }
-/* .blanter-msg {
+/* 
+.blanter-msg {
   color: #444;
   padding: 20px;
   font-size: 12.5px;
   text-align: center;
   border-top: 1px solid #ddd;
 } */
+
 textarea#chat-input {
     border: none;
     font-family: "Onest", sans-serif;
     width: 100%;
-    height: 20px;
+    height: 39px;
     outline: none;
     resize: none;
     padding: 10px;
-    font-size: 14px;
+    font-size: 14px;	
 }
 
 a#send-it {
-  width: 30px;
+  width: 40px;
   font-weight: 700;
   padding: 10px 10px 0;
-  background:#eee;
+  background:#4caf50;
   border-radius: 10px;
   
   svg {
-    fill:#a6a6a6;
+    fill: #f3f3f3;
     height: 24px;
     width: 24px;
   }
@@ -606,11 +610,11 @@ a.close-chat {
 
 
 
-		  <div id='whatsapp-chat' class='hide'>
-			<div class='header-chat'>
-			  <div class='head-home'>
-				<div class='info-avatar'>
-					<img src='https://img.freepik.com/premium-photo/small-robot_1272475-10178.jpg?uid=R101644944&ga=GA1.1.749853384.1712498620&semt=ais_hybrid' />
+		  <div id="whatsapp-chat" class="hide">
+			<div class="header-chat">
+			  <div class="head-home">
+				<div class="info-avatar">
+					<img src="https://img.freepik.com/premium-photo/small-robot_1272475-10178.jpg?uid=R101644944&ga=GA1.1.749853384.1712498620&semt=ais_hybrid">
 				</div>
 				<p><span class="whatsapp-name">Jayden</span><br><small>Typically replies within mintues.</small></p>
 		  
@@ -646,8 +650,10 @@ a.close-chat {
 			  </div>
 		  
 			  <div class='blanter-msg'>
-				<textarea id='chat-input' placeholder='Write a response' maxlength='120' row='1'></textarea>
-				<a href='javascript:void;' id='send-it'><svg viewBox="0 0 448 448"><path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z"/></svg></a>
+				<textarea id='chat-input' placeholder='Write a response' maxlength='200' row='1'></textarea>
+				<a href='javascript:void;' id='send-it'>
+					<svg viewBox="0 0 448 448"><path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z"/></svg>
+				</a>
 		  
 			  </div>
 			</div>
