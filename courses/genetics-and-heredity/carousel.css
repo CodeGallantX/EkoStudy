@@ -1,4 +1,4 @@
-/* General carousel styling */
+/* General carousel styling
 .carousel-inner {
     position: relative;
     width: 100%;
@@ -12,7 +12,7 @@
     height: auto;
 }
 
-/* Style for carousel controls */
+Style for carousel controls
 .carousel-control-prev, .carousel-control-next {
     position: relative;
     bottom: 0;
@@ -36,12 +36,12 @@
     border-radius: 50%;
 }
 
-/* Add a small shadow for better visibility */
+Add a small shadow for better visibility
 .carousel-control-prev-icon, .carousel-control-next-icon {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Style for carousel indicators */
+Style for carousel indicators
 .carousel-indicators button {
     width: 12px;
     height: 12px;
@@ -57,7 +57,7 @@
     background-color: #0056b3;
 }
 
-/* Center the carousel controls and indicators */
+Center the carousel controls and indicators
 .text-center {
     display: flex;
     justify-content: center;
@@ -66,4 +66,195 @@
 
 .mt-3 {
     margin-top: 1rem;
-}
+} */
+
+
+
+
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #589442;
+    padding: 20px;
+    border-radius: 10px;
+    /* max-width: 350px; */
+  }
+  
+  form .title {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #202020;
+  }
+  
+  .description {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #404040;
+  }
+  
+  form div {
+    display: flex;
+    max-width: 28rem;
+    margin-top: 1rem;
+    column-gap: 0.5rem;
+  }
+  
+  form div input {
+    outline: none;
+    width: 500px;
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+    color: rgb(255 255 255 );
+    padding: 0.5rem 0.875rem;
+    background-color: rgb(255 255 255 / 0.05);
+    border: 1px solid rgba(253, 253, 253, 0.363);
+    border-radius: 0.375rem;
+    flex: 1 1 auto;
+  }
+  
+  form div input::placeholder {
+    color: #707070;
+  }
+  
+  form div input:focus {
+    border: 1px solid rgb(99 102 241);
+  }
+  
+  form .in-out {
+      display: flex;
+      justify-content: flex-end;
+  }
+  
+  /* .download-btn {
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.625rem 0.875rem;
+    background-color: rgb(99 102 241);
+    border-radius: 0.375rem;
+    border: none;
+    outline: none;
+  }	 */
+
+
+
+
+.installer {
+    width: 200px;
+    height: 40px;
+  }
+  
+  .installer label {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .installer label input {
+    display: none;
+  }
+  
+  .installer label span {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #3F8EFC;
+    border-radius: 5px;
+  }
+  
+  .installer label input:checked ~ span {
+    background: #87E544;
+    animation: downloadSuccess 3.1s ease;
+  }
+  
+  .installer label span:after {
+    content: 'DOWNLOAD';
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 10%;
+  }
+  
+  .installer label input:checked ~ span:after {
+    content: 'Thank you!';
+    animation: downloadState 3s;
+  }
+  
+  .installer label span:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    background: rgba(255,255,255,.2);
+  }
+  
+  .installer label input:checked ~ span:before {
+    animation: downloadProgress 3s cubic-bezier(.67,.13,.1,.81);
+  }
+  
+  @keyframes downloadSuccess {
+    0%, 90% {
+      background: #3F8EFC;
+    }
+  
+    100% {
+      background: #87E544;
+    }
+  }
+  
+  @keyframes downloadState {
+    0%, 95% {
+      content: 'DOWNLOADING...'
+    }
+  
+    100% {
+      content: 'Thank you for download!'
+    }
+  }
+  
+  @keyframes downloadProgress {
+    0% {
+      width: 5%;
+      opacity: 1;
+    }
+  
+    35% {
+      width: 17%;
+    }
+  
+    64% {
+      width: 51%;
+    }
+  
+    81% {
+      width: 70%;
+    }
+  
+    90% {
+      width: 86%;
+      opacity: 1;
+    }
+  
+    100% {
+      width: 100%;
+      opacity: 0;
+    }
+  }
