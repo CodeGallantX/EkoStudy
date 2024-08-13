@@ -1,0 +1,31 @@
+{
+    "english" :{
+        "instructor": "Mr. Alabi",
+        "instructorProfile": "",
+        "courses":{
+            "1":"Syllable",
+            "2":"Word-formation processes",
+            "3":"Phrase and Clause",
+            "4":"Sentence",
+            "5":"Writing",
+            "6":"Presentation Skills"
+        }
+    },
+
+    "physics" :{
+        "instructor":"Dr. Oyeleke",
+        "instructorProfile":"Dr. Oyeleke is a PhD holder in the Department of Physics at LASUSTECH. With a PhD in Physical Science and over two decades of experience in both teaching and research, Dr. Oyeleke is an expert in celestial mechanics and planetary science as well as other areas in physics.",
+        "courses":{
+            "1":"Dimension",
+            "2":"Fundamental and Derived Quantity",
+            "3":"Vector and Scalar Quantities",
+            "4":"Work, Energy and Power",
+            "5":"Kinematics of Uniform Circular Motion",
+            "6":"Linear Momentum and Collision",
+            "7":"Gravitation",
+            "8":"Weightlessness",
+            "9":"Kepler's Law"
+        }
+    }
+
+}
