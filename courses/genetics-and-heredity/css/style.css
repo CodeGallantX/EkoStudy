@@ -1,0 +1,71 @@
+body,
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+.video-testimonials-container {
+    width: 1000px;
+    margin: 60px auto;
+}
+
+@media(max-width: 1000px) {
+    .video-testimonials-container {
+        width: 100%;
+    }
+}
+
+.owl-item > div {
+    height: 550px;
+}
+
+.owl-item > div .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 39, 78, .7);
+}
+
+.owl-item > div a.video {
+    text-indent: -50000px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../img/play.png) no-repeat center center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #253A7A;
+    transition: all .5s;
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: #E83658;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    margin-right: 5px;
+}
+
+.owl-carousel .owl-nav button i {
+    color: #A3B7F3;
+    transition: all .5s;
+}
+
+.owl-carousel .owl-nav button:hover i {
+    color: #fff;
+}

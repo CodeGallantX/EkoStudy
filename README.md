@@ -76,3 +76,75 @@
   </button>
 </div>
 ```
+****
+****
+****
+
+# Prompt
+### Content for Launching EkoStudy
+
+---
+
+**🚀🎉 Introducing EkoStudy: Your Ultimate Exam Prep Companion! 🎉🚀**
+
+Hey everyone! 🌟
+
+I’m excited to announce the launch of **EkoStudy**, a powerful tool designed specifically for us, the pre-degree students at LASUSTECH, to help ace our exams! 📚
+
+---
+
+### What is EkoStudy? 🤔
+
+**EkoStudy** is an online platform that provides tailored study resources, practice questions, and expert tips to guide you through your exam preparation journey. Whether you need to review key concepts, practice CBTs, or get advice on tackling tricky questions, EkoStudy has got you covered!
+
+---
+
+### What Does EkoStudy Do? 💡
+
+- **Practice CBTs:** Simulate the actual exam environment with our Computer-Based Tests, specifically designed to reflect the format and difficulty of our exams.
+  
+- **Topic Reviews:** Access comprehensive study materials covering all the essential topics you need to master.
+  
+- **Expert Tips:** Learn from the best with tips and strategies to improve your performance and avoid common mistakes.
+  
+- **Progress Tracking:** Monitor your preparation progress and identify areas that need more attention.
+
+---
+
+### Why is EkoStudy Important? 🎯
+
+With exams just around the corner, **EkoStudy** is your key to staying ahead. It helps you focus on what's most important, reinforces your understanding of crucial topics, and builds your confidence by giving you hands-on practice with the types of questions you’ll face on the big day.
+
+---
+
+### The Reason Behind EkoStudy 💡
+
+I created EkoStudy after noticing how many of us struggled during the last exams due to a lack of adequate preparation and unfamiliarity with the CBT format. I wanted to ensure that every one of us has the resources and tools needed to excel. EkoStudy is here to help bridge that gap, ensuring that no one is left behind.
+
+---
+
+### How to Use EkoStudy 📲
+
+1. **Join EkoStudy:** Simply click the link [here](https://ekostudy.vercel.app/) to join our platform.
+   
+2. **Start Practicing:** Dive into the CBT simulations and study materials.
+   
+3. **Track Your Progress:** Keep an eye on your scores and focus on areas that need improvement.
+   
+4. **Get Ready for August 19th:** Use the practice tests and expert tips to be fully prepared for the upcoming exam!
+
+---
+
+### Why You Should Use EkoStudy NOW! 🚨
+
+The August 19th exam is fast approaching, and now is the time to ensure you’re fully prepared. By using EkoStudy, you’ll be giving yourself the best chance to succeed. Don’t wait until the last minute—start using EkoStudy today, and walk into that exam room with confidence! 💪
+
+Let’s make this exam a success together. Join EkoStudy now and get ready to ace it! 🎓
+
+---
+
+**[https://ekostudy.vercel.app/]**
+
+Best of luck, everyone! Let's do this! 🚀
+
+---
