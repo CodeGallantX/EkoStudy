@@ -170,3 +170,52 @@ Best of luck, everyone! Let's do this! 🚀
 					</form>
 				</div>
 ```
+
+
+## SHort Launch Speech
+_*🚀🎉 Introducing EkoStudy: Your Ultimate Exam Prep Tool! 🎉🚀_
+
+Hey LASUSTECH pre-degree students! 🌟
+
+Excited to share EkoStudy, a platform designed to help you ace your exams! 📚
+
+_What is EkoStudy?_
+
+EkoStudy offers study resources, practice questions, and expert tips tailored for our exams. Whether you need to review topics, practice CBTs, or get advice, EkoStudy is here to help!
+
+_Features:_
+
+* Practice CBTs: Simulate the exam environment.
+* Topic Reviews: Access essential study materials.
+* Expert Tips: Get strategies to boost your performance.
+* Progress Tracking: Monitor your preparation.
+
+_Why Use EkoStudy?_
+
+
+With exams around the corner, EkoStudy helps you focus on what matters, reinforces key topics, and builds your confidence.
+
+_Why EkoStudy Was Created:_
+
+We saw many struggle with last exams due to inadequate prep. EkoStudy is here to ensure everyone has the tools to excel.
+
+_How to Use:_
+
+1. Join via https://ekostudy.vercel.app/.
+2. Start practicing.
+3. Track your progress.
+4. Prep for August 19th!
+5. Chat with Jayden for tutorial bookings.
+6. Download notes for all topics.
+
+_Why Start Now?_
+
+August 19th is coming fast! Use EkoStudy to ensure you're ready. No registration needed—jump right in and get prepared to succeed! 💪
+
+Join EkoStudy now and let’s ace this exam together! 🎓
+
+https://ekostudy.vercel.app/
+
+Best of luck! 🚀
+
+Questions? Tag me @CodeGallantX!
