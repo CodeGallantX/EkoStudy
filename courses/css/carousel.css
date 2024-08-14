@@ -156,7 +156,13 @@ form {
   }	 */
 
 
-
+@media (min-width:319px) and (max-width: 426px) {
+  .in-out {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
 
 .installer {
     width: 200px;
