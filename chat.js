@@ -13,7 +13,7 @@ $(document).on("click", "#send-it", function() {
         )
       )
         var d = "whatsapp://send";
-      var g = d + "?phone=234 8096044860" + e + f;
+      var g = d + "?phone=+234 8096044860" + e + f;
       window.open(g, "_blank");
     }
   }),
