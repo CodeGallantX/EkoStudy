@@ -6,7 +6,7 @@ marquee {
   padding: 10px 0;
   position: relative;
   height: 50px;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
   font-size: 15px;
 }
 
