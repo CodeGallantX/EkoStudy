@@ -479,20 +479,34 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 				</div>
 				<br>
 				
-				<div class="download-section">
-				<form action="/data/pdf-note/BIO101.pdf" method="get" target="_blank">
-					<span class="title">Download Biology Notes - Second Semester</span>
-					<p class="description">These notes have been carefully digitized into a convenient PDF format for enhanced accessibility and seamless study.</p>
-					<div class="in-out">
-						<input type="text" placeholder="Enter your name" name="name" id="username">
-						<div class="installer">
-							<label for="progressLinux">
-								<input id="progressLinux" type="radio"><span></span></label>
-						</div>
 
-					</div>
-				</form>
-			</div>
+
+
+
+
+
+
+
+
+
+
+
+				<div class="download-section">
+					<form id="downloadForm" action="/data/pdf-note/BIO101.pdf" method="get" target="_blank">
+						<span class="title">Download Biology Notes - Second Semester</span>
+						<p class="description">These notes have been carefully digitized into a convenient PDF format for enhanced accessibility and seamless study.</p>
+						<div class="in-out">
+							<input type="text" placeholder="Enter your name" name="name" id="username">
+							<button onclick="msg()" id="downloadButton" style="border: transparent" type="submit" class="button"><i class="bi bi-download"></i>Download</button>
+						</div>
+					</form>
+				</div>
+
+
+
+
+
+				<br>
 
 				<div class="elementor-element elementor-element-c8909b9 elementor-invisible elementor-widget elementor-widget-elementskit-accordion" data-id="c8909b9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="elementskit-accordion.default">
 				<div class="elementor-widget-container">
@@ -1179,6 +1193,7 @@ var ekit_config = {"ajaxurl":"https:\/\/kit.sociolib.com\/coursery\/wp-admin\/ad
 <script src="./wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementordeae.js?ver=3.2.1" id="elementskit-elementor-js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="/chat.js"></script>
+<script src="./bio.js"></script>
 </body>
 
 <!-- Mirrored from kit.sociolib.com/coursery/template-kit/single-course/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Aug 2024 15:12:30 GMT -->
