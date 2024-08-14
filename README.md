@@ -148,3 +148,112 @@ Let’s make this exam a success together. Join EkoStudy now and get ready to ac
 Best of luck, everyone! Let's do this! 🚀
 
 ---
+
+
+
+
+## Code for _pdf download section_ 
+```
+<div class="download-section">
+					<form id="downloadForm" action="/data/pdf-note/BIO101.pdf" method="get" target="_blank">
+						<span class="title">Download Biology Notes - Second Semester</span>
+						<p class="description">These notes have been carefully digitized into a convenient PDF format for enhanced accessibility and seamless study.</p>
+						<div class="in-out">
+							<input type="text" placeholder="Enter your name" name="name" id="username">
+							<button onclick="msg()" id="downloadButton" style="border: transparent" type="submit" class="button">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+								<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" stroke="currentColor" stroke-width="1" fill="none"/>
+								<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" stroke="currentColor" stroke-width="1" fill="none"/>
+							  </svg> 
+							  Download</button>
+						</div>
+					</form>
+				</div>
+```
+
+
+## Info for Cell Biology
+Here’s the course content for "Cell Biology" by Mr. Qozeem:
+
+---
+
+**Cell Biology**
+Learn the fundamental concepts of cell structure and function.
+
+**Instructor:**
+Mr. Qozeem
+
+**Language:**
+English
+
+**Enrolled:**
+85 Students
+
+**Lessons:**
+8
+
+**Certificate:**
+Yes
+
+**Department:**
+Biology
+
+**H.O.D.:**
+Dr. Aribike, Department of Biological Sciences
+
+---
+
+**Price:**
+₦0
+
+**Enroll Now**
+
+---
+
+**Course Overview:**
+Cell Biology is the study of cells, the basic building blocks of life. This course covers essential topics related to cell structure, function, and the molecular mechanisms that underlie cellular processes.
+
+**Course Outline:**
+
+1. **Introduction to Cell Biology:**
+   - Understand the basic concepts of cell biology and its significance in the study of life.
+   - Explore the history and development of cell theory.
+
+2. **Cell Structure and Organization:**
+   - Study the detailed structure of prokaryotic and eukaryotic cells.
+   - Examine the functions of cell organelles such as the nucleus, mitochondria, endoplasmic reticulum, and Golgi apparatus.
+
+3. **Cell Membrane and Transport:**
+   - Learn about the structure and function of the cell membrane.
+   - Understand the mechanisms of transport across the cell membrane, including diffusion, osmosis, and active transport.
+
+4. **Cell Division and the Cell Cycle:**
+   - Explore the processes of mitosis and meiosis.
+   - Study the regulation of the cell cycle and its importance in growth, development, and cancer.
+
+5. **Cell Communication and Signaling:**
+   - Understand how cells communicate with each other through signaling pathways.
+   - Learn about receptors, signal transduction, and the role of hormones in cellular communication.
+
+6. **Genetics and Molecular Biology:**
+   - Study the molecular basis of heredity, including DNA replication, transcription, and translation.
+   - Explore the structure and function of nucleic acids and their role in gene expression.
+
+7. **Cell Metabolism:**
+   - Examine the metabolic pathways that occur within cells, including glycolysis, the citric acid cycle, and oxidative phosphorylation.
+   - Understand how cells generate and use energy.
+
+8. **Cellular Techniques and Applications:**
+   - Learn about the techniques used to study cells, such as microscopy, cell culture, and genetic engineering.
+   - Explore the applications of cell biology in biotechnology, medicine, and research.
+
+**Instructor:**
+Mr. Qozeem, an experienced biologist with a deep understanding of cellular processes. Mr. Qozeem is dedicated to helping students grasp the intricacies of cell biology through clear explanations and engaging lectures.
+
+---
+
+**Enroll Now** and dive into the microscopic world of cells, gaining essential knowledge that is fundamental to all areas of biology and medicine.
+
+---
+
+This course outline provides a comprehensive introduction to cell biology, making it ideal for students pursuing studies in biology, medicine, or related fields.
