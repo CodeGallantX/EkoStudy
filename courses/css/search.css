@@ -36,3 +36,12 @@
 #search-form  button:hover {
     background-color: #589442ff;
 }
+
+
+@media (min-width: 375px) and (max-width: 425) {
+    
+#search-form svg {
+    transform: translate(-280px, 12px);
+
+}
+}
