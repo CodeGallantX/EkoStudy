@@ -1,0 +1,38 @@
+#search-form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    border: none;
+}
+
+#search-query {
+    padding: 8px;
+    width: 20rem;
+    font-size: 16px;
+    text-indent: 30px;
+}
+
+#search-query::placeholder {
+    text-indent: 30px;
+}
+
+#search-form svg {
+    fill: #777;
+    transform: translate(-310px, 12px);
+    margin: 0;
+
+}
+
+#search-form button {
+    padding: 8px 16px;
+    background-color: #526e54;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#search-form  button:hover {
+    background-color: #589442ff;
+}
