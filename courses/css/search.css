@@ -16,6 +16,7 @@
 
 #search-query::placeholder {
     text-indent: 30px;
+    display: none;
 }
 
 #search-form svg {
@@ -38,10 +39,27 @@
 }
 
 
-@media (min-width: 375px) and (max-width: 425) {
+@media (min-width: 320px) and (max-width: 425px) {
     
 #search-form svg {
-    transform: translate(-280px, 12px);
+    transform: translate(-150px, 12px);
 
 }
+
+#search-query {
+    padding: 8px;
+    width: 10rem;
+}
+
+#search-query::placeholder {
+    display: none;
+}
+
+#search-query::placeholder::after {
+    content: '';
+}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    
 }
