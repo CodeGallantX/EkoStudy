@@ -41,6 +41,7 @@
 
 <!-- WhatsApp Chat Widget -->
 <link rel="stylesheet" href="/chat.css">
+<link rel="stylesheet" href="/courses/css/carousel.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- WhatsApp Chat Widget -->
 
@@ -425,7 +426,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 			<style>/*! elementor - v3.23.0 - 15-07-2024 */
 .elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;right:0;bottom:0;left:0;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%;aspect-ratio:var(--video-aspect-ratio);-o-object-fit:cover;object-fit:cover;-o-object-position:center center;object-position:center center}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-custom-embed-image-overlay{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-custom-embed-image-overlay img{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-wrapper elementor-open-inline">
 			<div class="elementor-video"></div>				<div class="elementor-custom-embed-image-overlay">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/bmsapLZM2Uo?si=CheipEmQtuhPz_Fz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/pHGtn563DQI?si=748ZXe7XDRKpWJvu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 																<!-- <div class="elementor-custom-embed-play" role="button" aria-label="Play Video" tabindex="0">
 							<svg aria-hidden="true" class="e-font-icon-svg e-eicon-play" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M838 162C746 71 633 25 500 25 371 25 258 71 163 162 71 254 25 367 25 500 25 633 71 746 163 837 254 929 367 979 500 979 633 979 746 933 838 837 929 746 975 633 975 500 975 367 929 254 838 162M808 192C892 279 933 379 933 500 933 621 892 725 808 808 725 892 621 938 500 938 379 938 279 896 196 808 113 725 67 621 67 500 67 379 108 279 196 192 279 108 383 62 500 62 621 62 721 108 808 192M438 392V642L642 517 438 392Z"></path></svg>							<span class="elementor-screen-only">Play Video</span>
 						</div> -->
@@ -452,6 +453,21 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 							<br>
 							<h6 class="elementor-heading-title elementor-size-default">Instructor:</h6>
 							<p>Dr. Aribike, H.O.D. of Mathematical Sciences, brings a wealth of knowledge and experience to this course. With a passion for mathematics and a dedication to teaching, she will guide you through the complexities of this topic with clarity and precision.</p>						</div>
+				</div>
+				<div class="download-section">
+					<form id="downloadForm" action="/data/pdf-note/ENG101.pdf" method="get" target="_blank">
+						<span class="title">Download English Notes - Second Semester</span>
+						<p class="description">These notes have been carefully digitized into a convenient PDF format for enhanced accessibility and seamless study.</p>
+						<div class="in-out">
+							<input type="text" placeholder="Enter your name" name="name" id="username">
+							<button onclick="msg()" id="downloadButton" style="border: transparent" type="submit" class="button">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+								<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" stroke="currentColor" stroke-width="1" fill="none"/>
+								<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" stroke="currentColor" stroke-width="1" fill="none"/>
+							  </svg> 
+							  Download</button>
+						</div>
+					</form>
 				</div>
 				<br>
 				<div class="elementor-element elementor-element-c8909b9 elementor-invisible elementor-widget elementor-widget-elementskit-accordion" data-id="c8909b9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="elementskit-accordion.default">
@@ -1139,7 +1155,8 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 var ekit_config = {"ajaxurl":"https:\/\/kit.sociolib.com\/coursery\/wp-admin\/admin-ajax.php","nonce":"6946064a0c"};
 </script>
 <script src="./wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementordeae.js?ver=3.2.1" id="elementskit-elementor-js"></script>
-
+<script src="./js/eng.js"></script>
+<script src="/chat.js"></script>
 </body>
 
 <!-- Mirrored from kit.sociolib.com/coursery/template-kit/single-course/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Aug 2024 15:12:30 GMT -->
