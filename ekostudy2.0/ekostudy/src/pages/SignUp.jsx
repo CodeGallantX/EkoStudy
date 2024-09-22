@@ -19,7 +19,7 @@ const App = () => {
         <div className="flex flex-col gap-5 px-16 lg:px-10 xl:px-28 py-12 lg:py-8">
             <h1 className='text-4xl lg:text-6xl font-bold text-center'>Create Account</h1>
             <p>Already have an account? <a href="/signin" className='text-[#92B76D] hover:text-[#ffca0d] transition duration-300 ease-in-out'>Sign in</a></p>
-            <form action="#" method="post" className='flex flex-col gap-3 lg:gap-6'>
+            <form action="" method="post" className='flex flex-col gap-3 lg:gap-6'>
                 <div className="flex flex-row items-center justify-between">
                     <fieldset className="flex flex-col items-start justify-center gap-1">
                         <label className='text-[#222831c6]' htmlFor="email">First Name</label>
@@ -34,14 +34,14 @@ const App = () => {
                         <label className='text-[#222831c6]' htmlFor="email">Email Address</label>
                         <input className="w-full border border-solid py-3 px-3 rounded border-[#22283170] outline-none focus:border-none focus:ring-1 focus:ring-[#92B76D] text-[#6c8b4c]" type="email" name="email" id="email" placeholder='kiasmith@mail.com' required />
                     </fieldset>
-                    <fieldset className="flex flex-col items-start justify-center gap-1">
-                        <label className='text-[#222831c6]' htmlFor="email">Phone number</label>
-                        <input className="w-full border border-solid py-3 px-3 rounded border-[#22283170] outline-none focus:border-none focus:ring-1 focus:ring-[#92B76D] text-[#6c8b4c]" type="tel" name="tel" id="phonenumber" placeholder='+234 80 123 45 678' required />
-                    </fieldset>
-                    <div className="flex flex-row items-center justify-center">
+                    <div className="flex flex-row items-center justify-start  gap-12">
+                        <fieldset className="flex flex-col items-start justify-center gap-1">
+                            <label className='text-[#222831c6]' htmlFor="email">Phone number</label>
+                            <input className="w-full border border-solid py-3 px-3 rounded border-[#22283170] outline-none focus:border-none focus:ring-1 focus:ring-[#92B76D] text-[#6c8b4c]" type="tel" name="tel" id="phonenumber" placeholder='+234 80 123 45 678' required />
+                        </fieldset>
                         <fieldset>
-                            <legend>Gender</legend>
-                            <div className="flex flex-row">
+                            <legend className='text-[#222831c6]'>Gender</legend>
+                            <div className="flex flex-row mt-2">
                                 <div className="flex flex-row items-center mr-4">
                                     <input className="" type="radio" name="gender" id="male" />
                                     <label className="text-[#222831c6] ml-2" htmlFor="male">M</label>
@@ -53,10 +53,40 @@ const App = () => {
                             </div>
                         </fieldset>
                     </div>
+                    <div className="flex flex-row items-center justify-start  gap-12">
+                        <fieldset className="flex flex-col items-start justify-center gap-1">
+                            <label className='text-[#222831c6]' htmlFor="level">Level</label>
+                            <select className="w-full border border-solid py-3 px-3 rounded border-[#22283170] outline-none focus:border-none focus:ring-1 focus:ring-[#92B76D] text-[#6c8b4c]" name="level" id="level" required>
+                                <option value=''></option>
+                                <option value='predegree'>Predegree</option>
+                                <option value='100'>Freshman (100L)</option>
+                                <option value='200'>Classman (200L)</option>
+                                <option value='300'>Senior (300L)</option>
+                                <option value='400'>Upper Classman (400)</option>
+                                <option value='500'>Final year (500)</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                        <label className='text-[#222831c6]' htmlFor="dept">Department</label>
+                            <select className="w-full border border-solid py-3 px-3 rounded border-[#22283170] outline-none focus:border-none focus:ring-1 focus:ring-[#92B76D] text-[#6c8b4c]" name="dept" id="dept" required>
+                                <option value=''></option>
+                                <option value='art&design'>Art & Design</option>
+                                <option value='engineering'>Engineering</option>
+                                <option value='Humanities'>Humanities</option>
+                                <option value='Mass Comm'>Mass Communication</option>
+                                <option value='science'>Sciences</option>
+                                <option value='others'>Others</option>
+                            </select>
+                        </fieldset>
+                    </div>
 
                 <fieldset className="flex flex-col items-start justify-center gap-1">
                     <label className='text-[#222831c6]' htmlFor="password">Password</label>
-                    <input className="w-full border border-solid py-3 px-3 rounded border-[#22283170] outline-none focus:border-none focus:ring-1 focus:ring-[#92B76D] text-[#6c8b4c]" type="password" name="password" id="password" placeholder='8 or more characters' required/>
+                    <input className="w-full border border-solid py-3 px-3 rounded border-[#22283170] outline-none focus:border-none focus:ring-1 focus:ring-[#92B76D] text-[#6c8b4c]" type="password" name="password" id="password" placeholder='Enter password' required/>
+                </fieldset>
+                <fieldset className="flex flex-col items-start justify-center gap-1">
+                    <label className='text-[#222831c6]' htmlFor="confirmPassword">Confirm Password</label>
+                    <input className="w-full border border-solid py-3 px-3 rounded border-[#22283170] outline-none focus:border-none focus:ring-1 focus:ring-[#92B76D] text-[#6c8b4c]" type="password" name="confirmPassword" id="confirmPassword" placeholder='Enter password again' required/>
                 </fieldset>
                 <div className="flex flex-row items-center justify-between">
                     <fieldset className="">
