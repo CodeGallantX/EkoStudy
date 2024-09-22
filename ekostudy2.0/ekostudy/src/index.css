@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styling Content from BlogHandy */
+@layer base {
+    #bh-posts h1 {
+        @apply text-5xl;
+        @apply font-bold;
+    }
+    #bh-posts h2 {
+        @apply text-4xl;
+        @apply font-bold;
+        @apply py-4;
+        @apply text-black;
+    }
+    #bh-posts h2:hover {
+        @apply text-[#92B76D];
+    }
+    #bh-posts a {
+        @apply text-[#92B76D];
+    }
+    #bh-posts a:hover {
+        @apply text-[#FFCA0D];
+    }
+}
