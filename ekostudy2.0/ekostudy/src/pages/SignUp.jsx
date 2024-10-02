@@ -11,7 +11,7 @@ const App = () => {
     dept: '',
     password: '',
     confirmPassword: '',
-    remember: false,
+    agree: false,
   });
 
   const handleChange = (e) => {
@@ -30,11 +30,11 @@ const App = () => {
 
   return (
     <div className='lg:grid lg:grid-cols-2'>
-      <div className='hidden lg:block lg:w-5/6 xl:w-11/12 relative h-screen bg-gradient-to-tl from-[#92B76D] to-[#ffca0d]'>
-        <div className='absolute w-full opacity-50 h-screen bg-green-100 backdrop-blur-3xl'></div>
+      <div className='hidden lg:block lg:w-5/6 xl:w-11/12 relative h-full bg-gradient-to-tl from-[#92B76D] to-[#ffca0d]'>
+        <div className='absolute w-full opacity-50 h-full bg-green-100 backdrop-blur-3xl'></div>
         <div className='relative text-black top-1/4 left-5'>
           <div className='flex flex-col items-center justify-between gap-10 px-8'>
-            <h1 className="text-4xl text-left font-bold">EkoStudy</h1>
+            <a href='/' className="text-4xl text-left font-bold">EkoStudy</a>
             <div className="flex flex-col gap-2 items-start px-6 ">
               <blockquote className="text-left text-4xl">&ldquo;The secret of getting ahead is getting started.&rdquo;</blockquote>
               <em className='text-right text-xl'>— Mark Twain</em>
@@ -210,14 +210,13 @@ const App = () => {
               <input 
                 className="form-checkbox text-[#92B76D] border border-solid py-3 px-3 rounded border-[#22283170] outline-none focus:ring-1 focus:ring-[#92B76D]" 
                 type="checkbox" 
-                name="remember" 
-                id="remember" 
-                checked={formData.remember}
+                name="agree" 
+                id="agree" 
+                checked={formData.agree}
                 onChange={handleChange}
               />
-              <label htmlFor="remember" className="text-[#222831c6]">Remember Me</label>
+              <label htmlFor="agree" className="text-[#222831c6]">By checking this box, you agree to comply with our <a className="text-[#92B76D] hover:text-[#ffca0d] transition duration-300 ease-in-out">terms and conditions</a>.</label>
             </div>
-            <a href="/forgot" className='text-[#92B76D] hover:text-[#ffca0d] transition duration-300 ease-in-out'>Forgot Password?</a>
           </div>
 
           <button className='mt-6 w-full bg-[#92B76D] hover:bg-[#ffca0d] transition duration-300 ease-in-out text-white py-3 rounded' type="submit">

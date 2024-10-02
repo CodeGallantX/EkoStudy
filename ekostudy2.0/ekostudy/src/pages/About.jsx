@@ -6,7 +6,10 @@ import Footer from '../components/Footer';
 const App = () => {
   const page = {
     title: 'About',
-    description: 'Elevate your skills and enjoy the journey of learning, where learning meets passion.'
+    breadcrumb: [
+      {name:'Home', path: '/'}
+      {name: 'About', path: '#'}
+    ]
   }
   return (
     <body className="font-sans">

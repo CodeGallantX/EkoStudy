@@ -8,7 +8,7 @@ const App = () => {
             <div className='absolute w-full opacity-50 h-screen bg-green-100  backdrop-blur-3xl'></div>
             <div className='relative text-black top-1/4 left-5'>
                 <div className='flex flex-col items-center justify-between gap-10 px-8'>
-                    <h1 className="text-4xl text-left font-bold">EkoStudy</h1>
+                    <a href='/' className="text-4xl text-left font-bold">EkoStudy</a>
                     <div className="gap-2 ">
                         <blockquote className="text-left text-3xl =">&ldquo;Success is not final, failure is not fatal: It is the courage to continue that counts.&rdquo;</blockquote>
                         <em className='text-right text-lg'>— Winston Churchill</em>

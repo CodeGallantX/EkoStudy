@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet';
 const App = () => {
   const page = {
     title: 'Blog',
-    description: 'Get updated on happenings on campus',
+    breadcrumb: 'Get updated on happenings on campus',
   }
 
   return (

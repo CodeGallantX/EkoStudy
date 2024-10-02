@@ -2,6 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
+import Academics from './pages/Academics';
+import Resources from './pages/Resources';
 import Post from './pages/Post';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
@@ -28,6 +30,8 @@ const App = () => {
           <Route path="/signin" element={<SignIn/>}/>
           <Route path="/signup" element={<SignUp/>}/>
           <Route path="/forgot-password" element={<ForgotPassword/>}/>
+          <Route path="/academics" element={<Academics/>}/>
+          <Route path="/resources" element={<Resources/>}/>
         </Routes>
     </div>
   )
