@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Header from '../components/Header';
+import ModalForm from '../components/ModalForm';
 import Footer from '../components/Footer';
 import WhatsappBot from '../components/WhatsappBot';
 import GetStartedBtn from '../components/GetStartedBtn';
@@ -36,11 +37,11 @@ const App = () => {
       </Helmet>
       <Header />
       <WhatsappBot />
-      <section className="flex flex-row items-center justify-between bg-[#E8EDE6]">
+      <section className="flex flex-row items-center justify-between bg-[#E8EDE6] px-10 xl:px-24">
         <div className='w-1/2 flex flex-col gap-4'>
           <h1 className="text-7xl font-bold">Master Your Subjects, Fuel Your Passion</h1>
           <p className="text-3xl">Excel with EkoStudy, the go-to hub for <span>LASUSTECH students</span>!</p>
-          <div className="flex flex-row justify-between">
+          <div className="flex flex-row justify-center">
             <GetStartedBtn />
             <a href="/courses" className='text-lg xl:text-xl font-bold'>BROWSE COURSES </a>
             </div>
@@ -49,6 +50,7 @@ const App = () => {
           <div className="absolute bg-[#e6e1d1] w-[450px] h-[800px] bottom-0 right-1/3 -z-10"></div>
         </div>
       </section>
+      <ModalForm />
       <Footer />
     </body>
   )

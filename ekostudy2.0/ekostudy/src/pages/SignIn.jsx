@@ -46,11 +46,11 @@ const App = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center gap-4">
                     <a href="#" className="w-full flex flex-row items-center justify-center gap-2 hover:bg-blue-100 px-2 py-3 rounded-full bg-transparent border border-solid border-blue-500">
-                        <img src="/google-icon.png" alt="Google Icon" />
+                        <img src="https://ik.imagekit.io/mshcgnjju/EkoStudy/Google-icon.png" alt="Google Icon" width={20} height={20} />
                         <span>Continue with Google</span>
                     </a>
                     <a href="#" className="w-full flex flex-row items-center justify-center gap-2 hover:bg-gray-100 px-2 py-3 rounded-full bg-transparent border border-solid border-gray-500">
-                        <img src="/apple-icon.png" alt="Apple Icon" />
+                        <img src="https://ik.imagekit.io/mshcgnjju/EkoStudy/Apple_logo_grey.svg.png?updatedAt=1727884280423" alt="Apple Icon"  width={20} height={20} />
                         <span>Continue with Apple</span>
                     </a>
                 </div>
