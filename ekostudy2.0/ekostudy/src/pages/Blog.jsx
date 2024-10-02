@@ -7,7 +7,9 @@ import { Helmet } from 'react-helmet';
 const App = () => {
   const page = {
     title: 'Blog',
-    breadcrumb: 'Get updated on happenings on campus',
+    breadcrumb: [
+      {name: 'Blog', path: '/blog'},
+    ]
   }
 
   return (
@@ -17,10 +19,6 @@ const App = () => {
       </Helmet>
       <Header />
       <GraphicBanner page={page} />
-      <section>
-        
-      </section>
-
       <Footer />
     </div>
   );

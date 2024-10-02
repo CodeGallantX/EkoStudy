@@ -55,65 +55,65 @@ const Header = () => {
       {isSidebarVisible && (
         <>
           <div 
-            className={`block lg:hidden fixed inset-0 bg-black opacity-50 transition-opacity duration-200 ease-in-out z-30`} 
+            className="block lg:hidden fixed inset-0 bg-black opacity-50 transition-opacity duration-200 ease-in-out z-30" 
             onClick={hideSideBar}
           />
-          <ul
-            className={`lg:hidden fixed top-0 left-0 h-full bg-[#4c5f4e] w-1/2 flex flex-col items-start p-4 transition-transform duration-300 ease-in-out z-40 transform ${isSidebarVisible ? 'translate-x-0' : '-translate-x-full'}`}
-          > 
-            <li onClick={hideSideBar} className="cursor-pointer my-4 flex flex-row items-center justify-between w-full">
-                <img src="/logo.png" alt="EkoStudy logo" className="w-32 md:w-40" />
+          <nav className={`lg:hidden fixed top-0 left-0 h-full bg-[#4c5f4e] w-1/2 flex flex-col items-start p-4 transition-transform duration-300 ease-in-out z-40 transform ${isSidebarVisible ? 'translate-x-0' : '-translate-x-full'}`}>
+            <div onClick={hideSideBar} className="cursor-pointer my-4 flex flex-row items-center justify-between w-full">
+              <img src="/logo.png" alt="EkoStudy logo" className="w-32 md:w-40" />
               <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="26" viewBox="0 -960 960 960" width="26">
                 <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
               </svg>
-            </li>
-            <li className="py-2 text-lg text-white hover:text-[#ffca0d] transition duration-200">
-              <Link to="/" onClick={hideSideBar}>HOME</Link>
-            </li>
-            <li className="py-2 text-lg text-white hover:text-[#ffca0d] transition duration-200">
-              <Link to="/about" onClick={hideSideBar}>ABOUT</Link>
-            </li>
-            <li className="py-2 text-lg text-white cursor-pointer transition duration-200" onClick={toggleAcademics}>
-              ACADEMICS
-            </li>
-            {isAcademicsOpen && (
-              <ul className="pl-4">
-                <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
-                  <Link to="/academics/course1" onClick={hideSideBar}>Course 1</Link>
-                </li>
-                <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
-                  <Link to="/academics/course2" onClick={hideSideBar}>Course 2</Link>
-                </li>
-                <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
-                  <Link to="/academics/course3" onClick={hideSideBar}>Course 3</Link>
-                </li>
-              </ul>
-            )}
-            <li className="py-2 text-lg text-white cursor-pointer transition duration-200" onClick={toggleResources}>
-              RESOURCES
-            </li>
-            {isResourcesOpen && (
-              <ul className="pl-4">
-                <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
-                  <Link to="/resources/resource1" onClick={hideSideBar}>Resource 1</Link>
-                </li>
-                <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
-                  <Link to="/resources/resource2" onClick={hideSideBar}>Resource 2</Link>
-                </li>
-                <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
-                  <Link to="/resources/resource3" onClick={hideSideBar}>Resource 3</Link>
-                </li>
-              </ul>
-            )}
-            <li className="py-2 text-lg text-white hover:text-[#ffca0d] transition duration-200">
-              <Link to="/contact" onClick={hideSideBar}>CONTACT</Link>
-            </li>
-            <Link to="/signin" onClick={hideSideBar}>
-              <button className='border-2 border-white px-8 py-2 my-4 text-white font-bold'>
-                SIGN IN
-              </button>
-            </Link>
-          </ul>
+            </div>
+            <ul>
+              <li className="py-2 text-lg text-white hover:text-[#ffca0d] transition duration-200">
+                <Link to="/" onClick={hideSideBar}>HOME</Link>
+              </li>
+              <li className="py-2 text-lg text-white hover:text-[#ffca0d] transition duration-200">
+                <Link to="/about" onClick={hideSideBar}>ABOUT</Link>
+              </li>
+              <li className="py-2 text-lg text-white cursor-pointer transition duration-200" onMouseEnter={toggleAcademics} aria-expanded={isAcademicsOpen} aria-controls="academics-list">
+                <Link to="/academics">ACADEMICS</Link>
+              </li>
+              {isAcademicsOpen && (
+                <ul id="academics-list" className="pl-4">
+                  <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
+                    <Link to="/academics/course1" onClick={hideSideBar}>Course 1</Link>
+                  </li>
+                  <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
+                    <Link to="/academics/course2" onClick={hideSideBar}>Course 2</Link>
+                  </li>
+                  <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
+                    <Link to="/academics/course3" onClick={hideSideBar}>Course 3</Link>
+                  </li>
+                </ul>
+              )}
+              <li className="py-2 text-lg text-white cursor-pointer transition duration-200" onMouseEnter={toggleResources} aria-expanded={isResourcesOpen} aria-controls="resources-list">
+                <Link to="/resources">RESOURCES</Link>
+              </li>
+              {isResourcesOpen && (
+                <ul id="resources-list" className="pl-4">
+                  <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
+                    <Link to="/resources/resource1" onClick={hideSideBar}>Resource 1</Link>
+                  </li>
+                  <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
+                    <Link to="/resources/resource2" onClick={hideSideBar}>Resource 2</Link>
+                  </li>
+                  <li className="py-1 text-white hover:text-[#ffca0d] transition duration-200">
+                    <Link to="/resources/resource3" onClick={hideSideBar}>Resource 3</Link>
+                  </li>
+                </ul>
+              )}
+              <li className="py-2 text-lg text-white hover:text-[#ffca0d] transition duration-200">
+                <Link to="/contact" onClick={hideSideBar}>CONTACT</Link>
+              </li>
+              <Link to="/signin" onClick={hideSideBar}>
+                <button className='border-2 border-white px-8 py-2 my-4 text-white font-bold'>
+                  SIGN IN
+                </button>
+              </Link>
+            </ul>
+          </nav>
         </>
       )}
     </>

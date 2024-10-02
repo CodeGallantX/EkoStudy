@@ -11,7 +11,7 @@ const GraphicBanner = ({ page }) => {
         <nav aria-label="breadcrumb" className="text-sm text-gray-600">
           <ol className="list-reset flex space-x-2">
             <li>
-              <Link to="/" className="text-blue-600 hover:underline">Home</Link>
+              <Link to="/" className="text-[#4C5F4E] hover:underline">Home</Link>
             </li>
             <li>/</li>
             {page.breadcrumb.map((crumb, index) => (
@@ -23,7 +23,7 @@ const GraphicBanner = ({ page }) => {
                       {crumb.name}
                     </Link>
                   ) : (
-                    <span className="text-gray-500">{crumb.name}</span>
+                    <span className="text-[#4C5F4E]">{crumb.name}</span>
                   )}
                 </li>
                 {index < page.breadcrumb.length - 1 && <li>/</li>}
