@@ -12,7 +12,9 @@ import TwitterXBig from '../components/Icons/TwitterXBig';
 const App = () => {
   const page = {
     title: 'Contact',
-    breadcrumb: "Elevate your skills and enjoy the journey of learning, where learning meets passion."
+    breadcrumb: [
+      {name:'Contact', path: '/contact'}
+    ]
   }
 
   return (
