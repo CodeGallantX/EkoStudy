@@ -11,7 +11,7 @@ const App = () => {
     blogHandyScript.src = 'https://www.bloghandy.com/api/bh_blogengine.js';
     blogHandyScript.async = true;
     blogHandyScript.onload = () => {
-      window.bh_id = "609HmCqwe4Qx6DNDIxNA"; // Set the Blog ID after the script loads
+      window.bh_id = "609HmCqwe4Qx6DNDIxNA";
     };
     document.body.appendChild(blogHandyScript);
   
