@@ -16,7 +16,6 @@ const GraphicBanner = ({ page }) => {
             <li>/</li>
             {page.breadcrumb.map((crumb, index) => (
               <React.Fragment key={index}>
-                {/* Breadcrumb link */}
                 <li>
                   {crumb.path ? (
                     <Link to={crumb.path} className="text-blue-600 hover:underline">
