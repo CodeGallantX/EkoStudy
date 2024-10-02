@@ -31,7 +31,7 @@ const App = () => {
   }, []);
   
   const page ={
-    title: "Blog",
+    title: "Posts",
     breadcrumb : [
       {name: 'Blog', path: '/blog'},
       {name: 'Posts', path: '/in-blog'},
