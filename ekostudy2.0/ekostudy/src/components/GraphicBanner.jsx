@@ -11,14 +11,15 @@ const GraphicBanner = ({ page }) => {
         <nav aria-label="breadcrumb" className="text-sm text-gray-600">
           <ol className="list-reset flex space-x-2">
             <li>
-              <Link to="/" className="text-[#92B76D] hover:underline">Home</Link>
+              <Link to="/" className="text-[#4C5F4E] hover:underline">Home</Link>
             </li>
             <li>/</li>
             {page.breadcrumb.map((crumb, index) => (
               <React.Fragment key={index}>
+                {/* Breadcrumb link */}
                 <li>
                   {crumb.path ? (
-                    <Link to={crumb.path} className="text-[#92B76D] hover:underline">
+                    <Link to={crumb.path} className="text-[#4C5F4E] hover:underline">
                       {crumb.name}
                     </Link>
                   ) : (
