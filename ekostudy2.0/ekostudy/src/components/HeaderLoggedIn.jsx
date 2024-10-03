@@ -99,18 +99,13 @@ const Header = () => {
               </ul>
             </li>
             <li className="text-white cursor-pointer font-bold py-8">
-              <Link to="/contact">CONTACT</Link>
+              <Link to="/blog">BLOG</Link>
             </li>
             <li className="text-white cursor-pointer font-bold py-8">
-              <Link to="/blog">BLOG</Link>
+              <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
         </nav>
-        {/* <Link to="/signin" onClick={hideSideBar}>
-          <button className='hidden lg:inline-block border-2 border-white px-8 py-2 text-white font-bold'>
-              SIGN IN
-          </button>
-        </Link> */}
         <Link to="/signin" onClick={hideSideBar}>
           <button className='hidden lg:flex flex-row items-center justify-center rounded-full w-14 h-14 p-1'>
               <img src="home/mtnight.webp" alt=""
@@ -177,18 +172,17 @@ const Header = () => {
                 </li>
               </ul>
             )}
-            <li className="py-2 text-lg text-white hover:text-[#ffca0d] transition duration-200">
-              <Link to="/contact" onClick={hideSideBar}>CONTACT</Link>
-            </li>
-            <li className="py-2 text-lg text-white hover:text-[#ffca0d] transition duration-200">
-              <Link to="/blog" onClick={hideSideBar}>BLOG</Link>
-            </li>
+              <li className="py-2 text-lg text-white hover:text-[#ffca0d] transition duration-200">
+                <Link to="/blog" onClick={hideSideBar}>BLOG</Link>
+              </li>
+              <li className="py-2 text-lg text-white hover:text-[#ffca0d] transition duration-200">
+                <Link to="/contact" onClick={hideSideBar}>CONTACT</Link>
+              </li>
             {/* <Link to="/signin" onClick={hideSideBar}>
               <button className='border-2 border-white px-6 py-2 mt-8 text-white'>
                 SIGN IN
               </button>
             </Link> */}
-            
             <div className="mt-4">
               <h2 className='text-xl text-white'>FOLLOW US</h2>
               <div className="flex flex-row gap-4 mt-2">
