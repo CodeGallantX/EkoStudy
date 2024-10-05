@@ -34,7 +34,7 @@ const App = () => {
     title: "Posts",
     breadcrumb : [
       {name: 'Blog', path: '/blog'},
-      {name: 'Posts', path: '/in-blog'},
+      {name: 'Posts', path: '/blog/in-blog'},
     ]
   }
   return (
