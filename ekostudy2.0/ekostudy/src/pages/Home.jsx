@@ -38,7 +38,7 @@ const App = () => {
       <Header />
       <WhatsappBot />
       <section className="flex flex-row items-center justify-between bg-[#E8EDE6] px-10 xl:px-24">
-        <div className='w-1/2 flex flex-col gap-4'>
+        <div className='w-1/2 flex flex-col gap-10'>
           <h1 className="text-6xl lg:text-7xl font-bold">Master Your Subjects, Fuel Your Passion</h1>
           <p className="text-2xl lg:text-3xl">Excel with EkoStudy, the go-to hub for <span>LASUSTECH students</span>!</p>
           <div className="flex flex-row items-center justify-start gap-8">
