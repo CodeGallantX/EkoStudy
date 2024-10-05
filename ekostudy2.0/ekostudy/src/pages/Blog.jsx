@@ -46,8 +46,8 @@ const App = () => {
           <div className="flex items-center justify-start mt-4">
             <img
               className="w-12 h-12 rounded-full"
-              src="assets/img/blog/blog-stories/blog-stories-user.jpg"
-              alt="User"
+              src="https://ik.imagekit.io/mshcgnjju/team9.png?updatedAt=1710713969991"
+              alt="Author - EkoStudy"
             />
             <div className="ml-4">
               <h6 className="text-lg">Oliver Adetutu</h6>
@@ -90,8 +90,8 @@ const App = () => {
                       <div className="flex items-center">
                         <img
                           className="w-10 h-10 rounded-full"
-                          src={`assets/img/blog/blog-stories/blog-stories-user-${item}.jpg`}
-                          alt={`User ${item}`}
+                          src={`https://ik.imagekit.io/mshcgnjju/team9.png?updatedAt=1710713969991`}
+                          alt={`User -EkoStudy`}
                         />
                         <span className="ml-4">Kia Smith</span>
                       </div>
